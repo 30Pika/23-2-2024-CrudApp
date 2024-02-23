@@ -6,7 +6,7 @@ const FetchdataCon = async (req,res)=>{
         if(data){
             res.send(data);
         }else{
-            res.send("Con't Data Available..")
+            res.send("Con't Data Available In Data base..")
         }
 
     } catch (error) {
