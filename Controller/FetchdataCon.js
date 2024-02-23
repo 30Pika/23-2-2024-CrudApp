@@ -1,11 +1,11 @@
 import DataSche from "../Module/DataSche.js";
 
-const FetchdataCon = async (req,res)=>{
+const FetchdataCon = async (req, res) => {
     try {
         const data = await DataSche.find();
-        if(data){
+        if (data) {
             res.send(data);
-        }else{
+        } else {
             res.send("Con't Data Available In Data base..")
         }
 
